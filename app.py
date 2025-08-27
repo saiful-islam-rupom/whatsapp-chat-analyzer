@@ -126,7 +126,7 @@ if uploaded_file is not None:
             st.dataframe(emoji_df)
 
         with col2:
-            plt.rcParams['font.family'] = 'Segoe UI Emoji'  # works for windows
+            plt.rcParams['font.family'] = 'Noto Color Emoji'  # works for linux
             fig, ax = plt.subplots()
             ax.pie(
                 emoji_df["Count"].head(10),
@@ -141,3 +141,4 @@ if uploaded_file is not None:
         st.title('Select "Overall" to see group level analysis (or choose a user to see analysis for the individual) and press "Show Analysis" button.')
 else:
     st.title("Hi there! Please browse and upload you whatsapp chat(.txt file)")
+
