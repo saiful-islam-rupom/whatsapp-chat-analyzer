@@ -1,7 +1,7 @@
 import streamlit as st
 import preprocessor, helper
 import matplotlib.pyplot as plt
-from matplotlib import rcParams
+import matplotlib.font_manager as fm
 import seaborn as sns
 
 st.sidebar.title("Whatsapp Chat Analyzer")
@@ -126,14 +126,17 @@ if uploaded_file is not None:
             st.dataframe(emoji_df)
 
         with col2:
-            plt.rcParams['font.family'] = 'Noto Color Emoji'  # works for linux
+            font_path = "NotoColorEmoji.ttf"
+            prop = fm.FontProperties(fname=font_path)
+            
             fig, ax = plt.subplots()
             ax.pie(
                 emoji_df["Count"].head(10),
                 labels=emoji_df["Emoji"].head(10),
-                autopct=lambda p: f"{p:.1f}%"
+                autopct=lambda p: f"{p:.1f}%",
+                textprops={'fontproperties': prop}
             )
-            ax.set_title("Percentages of Top 10 used Emojies")
+            ax.set_title("Percentages of Top 10 used Emojis", fontproperties=prop)
             st.pyplot(fig)
 
         st.title("Thank you for exploring your chats with this tool.")
@@ -141,4 +144,5 @@ if uploaded_file is not None:
         st.title('Select "Overall" to see group level analysis (or choose a user to see analysis for the individual) and press "Show Analysis" button.')
 else:
     st.title("Hi there! Please browse and upload you whatsapp chat(.txt file)")
+
 
