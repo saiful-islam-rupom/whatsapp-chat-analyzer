@@ -1,13 +1,7 @@
 ![Poster](images/banner.jpg)
 # WhatsApp Chat Analyzer
-**Live App**: [Click to Try the App](https://tinyurl.com/4cf587bh)
-
-# 📊 WhatsApp Chat Analyzer  
-
-**Live App:** <a href="https://saiful-islam-rupom-whatsapp-chat-analyzer.streamlit.app/" target="_blank">Click to Try the App</a>  
-
-
-
+**Live App:** [Click to Try the App](https://saiful-islam-rupom-whatsapp-chat-analyzer.streamlit.app/)  
+(*If you see a 404 page on first click, please reload once — it will work.*)
 
 ## Project Overview
 A data analysis-based web application built with Streamlit that enables users to explore and visualize their WhatsApp chat history in detail. The tool provides interactive statistics, timelines, activity heatmaps, most common words, emoji usage, and other different informations to give users meaningful insights into their personal or group conversations.
