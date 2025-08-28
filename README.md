@@ -1,6 +1,6 @@
 !Poster](images/banner.jpg)
 # WhatsApp Chat Analyzer
-**Live App**: [Click to Try the App](https://saiful-islam-rupom-whatsapp-chat-analyzer.streamlit.app)
+**Live App**: [Click to Try the App](https://saiful-islam-rupom-whatsapp-chat-analyzer.streamlit.app/)
 (Make sure Desktop-site is Turned-on for better user experience.)
 
 ## Project Overview
