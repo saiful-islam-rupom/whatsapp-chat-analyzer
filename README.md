@@ -11,7 +11,7 @@ The objective of this project is to build an interactive web app that helps What
 
 ## Project Features
 - **Quick Stats**
--- Get instant metrics such as total messages, word count, media shared, and links.
+  - Get instant metrics such as total messages, word count, media shared, and links.
 - **Timelines**
 - **Activity Maps**
 - **Most Active Users**
