@@ -1,4 +1,4 @@
-![Poster](images/banner.jpg)
+![Poster](images/poster.png)
 # WhatsApp Chat Analyzer
 **Live App:** [Click to Try the App](https://saiful-islam-rupom-whatsapp-chat-analyzer.streamlit.app/)  
 (*If you see a 404 page on first click, please reload once — it will work.*)
@@ -55,7 +55,7 @@ Using a custom preprocessor.py, chat logs were cleaned and structured into a dat
 6. Upload it into the app using the sidebar uploader.
 
 ## App Snapshot
-![Snapshot](images/snapshot.jpg)
+![Snapshot](images/snapshot.png)
 
 ## Future Enhancements
 - Sentiment analysis of chats (positive/negative/neutral).
