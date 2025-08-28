@@ -2,7 +2,11 @@
 # WhatsApp Chat Analyzer
 **Live App**: [Click to Try the App](https://saiful-islam-rupom-whatsapp-chat-analyzer.streamlit.app/)
 
-<a href="https://saiful-islam-rupom-whatsapp-chat-analyzer.streamlit.app/" target="_blank">Click to Try the App</a>
+# 📊 WhatsApp Chat Analyzer  
+
+**Live App:** <a href="https://saiful-islam-rupom-whatsapp-chat-analyzer.streamlit.app/" target="_blank">Click to Try the App</a>  
+
+
 
 
 ## Project Overview
