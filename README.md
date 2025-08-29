@@ -1,5 +1,5 @@
 ![Poster](images/poster.png)
-# WhatsApp Chat Analyzer.
+# WhatsApp Chat Analyzer
 **Live App:** [Click to Try the App](https://saiful-islam-rupom-whatsapp-chat-analyzer.streamlit.app/)  
 (*If you see a 404 page on first click, please reload once — it will work.*)
 
